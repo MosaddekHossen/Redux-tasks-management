@@ -29,7 +29,7 @@ const AddTaskModal = ({ isOpen, setInOpen }) => {
               className="w-full rounded-md"
               type="text"
               id="title"
-              {...register("name")}
+              {...register("title")}
             />
           </div>
           <div className="flex flex-col mb-2">
@@ -63,19 +63,19 @@ const AddTaskModal = ({ isOpen, setInOpen }) => {
               id="assignedTo"
               {...register("assignedTo")}
             >
-              <option value={"One"}>One</option>
-              <option value={"One"}>One</option>
-              <option value={"One"}>One</option>
-              <option value={"One"}>One</option>
-              <option value={"One"}>One</option>
-              <option value={"One"}>One</option>
-              <option value={"One"}>One</option>
-              <option value={"One"}>One</option>
-              <option value={"One"}>One</option>
-              <option value={"One"}>One</option>
-              <option value={"One"}>One</option>
-              <option value={"One"}>One</option>
-              <option value={"One"}>One</option>
+              <option value={"Mosaddek"}>Md Mosaddek</option>
+              <option value={"Two"}>Two</option>
+              <option value={"Three"}>Three</option>
+              <option value={"Four"}>Four</option>
+              <option value={"Five"}>Five</option>
+              <option value={"Six"}>Six</option>
+              <option value={"Seven"}>Seven</option>
+              <option value={"Eight"}>Eight</option>
+              <option value={"Nine"}>Nine</option>
+              <option value={"Ten"}>Ten</option>
+              <option value={"Eleven"}>Eleven</option>
+              <option value={"Twelve"}>Twelve</option>
+              <option value={"Thirteen"}>Therteen</option>
             </select>
           </div>
           <div className="flex flex-col mb-5">
